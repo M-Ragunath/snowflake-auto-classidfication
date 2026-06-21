@@ -2,7 +2,7 @@
 
 This repository contains a Jupyter notebook demo for Snowflake auto-classification:
 
-- `Auto_Classification_Demo.ipynb`
+- `auto_classification_demo.ipynb`
 - `Makefile` for environment setup and validation
 - `scripts/validate_first_two_code_cells.py` for quick notebook startup validation
 
@@ -76,7 +76,7 @@ The notebook connection cell reads `SNOWFLAKE_CONNECTION_NAME` and falls back to
 
 ## Running the Notebook
 
-1. Open `Auto_Classification_Demo.ipynb` in VS Code.
+1. Open `auto_classification_demo.ipynb` in VS Code.
 2. Select kernel `Python (snowflake-auto-classification)`.
 3. Run setup cells first:
    - Cell 3: load SQL magic

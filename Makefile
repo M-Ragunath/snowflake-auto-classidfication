@@ -3,7 +3,7 @@ SHELL := /bin/bash
 VENV_DIR ?= .venv
 PYTHON ?= python3
 KERNEL_NAME ?= snowflake-auto-classification
-NOTEBOOK ?= Auto_Classification_Demo.ipynb
+NOTEBOOK ?= auto_classification_demo.ipynb
 
 PIP := $(VENV_DIR)/bin/pip
 VENV_PYTHON := $(VENV_DIR)/bin/python
